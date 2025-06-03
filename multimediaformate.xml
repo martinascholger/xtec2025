@@ -1,0 +1,254 @@
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:t="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="de">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Audio- bzw. Musik- und Videoformate</title>
+        <author>
+          <persName>
+            <forename>Christian</forename>
+            <surname>Steiner</surname>
+          </persName>
+        </author>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName>
+            <forename>Helmut W.</forename>
+            <surname>Klug</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Datenmodellierung</resp>
+          <persName>
+            <forename>Selina</forename>
+            <surname>Galka</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Datenmodellierung</resp>
+          <persName>
+            <forename>Elisabeth</forename>
+            <surname>Steiner</surname>
+          </persName>
+        </respStmt>
+        <funder>Bundesministerium für Wissenschaft, Forschung und Wirtschaft
+                    </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName corresp="https://informationsmodellierung.uni-graz.at" ref="http://d-nb.info/gnd/1137284463">Zentrum für
+                        Informationsmodellierung - Austrian Centre for Digital Humanities,
+                        Karl-Franzens-Universität Graz</orgName>
+          <country>Austria</country>
+        </publisher>
+        <authority>
+          <orgName corresp="https://informationsmodellierung.uni-graz.at" ref="http://d-nb.info/gnd/1137284463">Zentrum für
+                        Informationsmodellierung - Austrian Centre for Digital Humanities,
+                        Karl-Franzens-Universität Graz</orgName>
+          <country>Austria</country>
+        </authority>
+        <distributor>
+          <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                        Asset Management System</orgName>
+        </distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
+                            BY 4.0</licence>
+        </availability>
+        <date when="2021">2021</date>
+        <pubPlace>Graz</pubPlace>
+        <idno type="PID">o:konde.121</idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title ref="http://gams.uni-graz.at/konde">KONDE Weißbuch</title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName>
+            <forename>Helmut W.</forename>
+            <surname>Klug</surname>
+          </persName>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Weißbuchartikel: Audio- bzw. Musik- und Videoformate</title>
+          <author>Christian Steiner</author>
+          <publisher>Herausgegeben von Helmut W. Klug unter Mitarbeit von Selina Galka und Elisabeth Steiner</publisher>
+          <date>2021</date>
+          <country>Austria</country>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <ab>
+          <ref target="info:fedora/context:konde" type="context">KONDE Weißbuch</ref>
+        </ab>
+        <p>Im KONDE-Projekt, das aus Hochschulraumstrukturmitteln finanziert wird,
+                        beschäftigten sich sieben universitäre Partner und drei weitere
+                        Einrichtungen aus unterschiedlichen Blickwinkeln mit theoretischen und
+                        praktischen Aspekten der Digitalen Edition. Ein Outcome des Projektes
+                        stellt das Weißbuch dar, welches über 200 Artikel zum Thema Digitale
+                        Edition umfasst. Die behandelten Themenkomplexe reichen dabei über
+                        Digitale Editionswissenschaft im Allgemeinen, Annotation und
+                        Modellierung, Interfaces, Archivierung und Metadaten bis hin zu
+                        rechtlichen Aspekten.</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage> 
+       <language ident="de">Deutsch</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="de">
+    <body>
+      <div>
+        <head>Audio- bzw. Musik- und Videoformate</head>
+        <div>
+          <head>Steiner, Christian; christian.steiner@uni-graz.at</head>
+
+          <p>Es gibt eine bereits seit Jahrzehnten geführte Diskussion über Audio- bzw. Musik- und Videoformate, die für die <ref target="/o:konde.6" type="internal">Langzeitarchivierung</ref> (LZA) geeignet sind. Zu berücksichtigen sind folgende Aspekte:</p>
+          <list>
+            <item>Das Format sollte öffentlich und <ref target="/o:konde.152" type="internal">offen</ref> dokumentiert werden.</item>
+            <item>Das Format ist nicht-proprietär.</item>
+            <item>Das Format ist weit verbreitet.</item>
+            <item>Das Format ist selbstdokumentierend.</item>
+            <item>Das Format kann mit leicht zugänglichen Werkzeugen geöffnet, gelesen und zugänglich gemacht werden.</item>
+          </list>
+
+          <p>Eine digitale Audio- oder Videodatei besteht aus einem Container mit Quelldaten, die durch einen ‘Codec’ verarbeitet wurden. Ein Codec (<hi rend="italic">coder-decoder, compressor-decompressor, compress-decompress</hi>) wandelt das analoge Signal (von einem Mikrofon, einer Videokamera usw.) in die Einsen und Nullen einer digitalen Datei um. Ein Codec kann auch verwendet werden, um bereits in einem digitalen Format vorhandenes Material in einem anderen digitalen Format zu kodieren.</p>
+          <p>Bei digitalen Audiodateien herrscht mittlerweile internationaler Konsensus über die einzusetzenden Formate, bei Videoformaten ist dieser Prozess noch nicht zur Gänze abgeschlossen:</p>
+          <p>Audio (in absteigender Priorisierung)</p>
+          <list>
+            <item>
+              <hi rend="italic">Broadcast Wave </hi>(BWF, WAV)</item>
+            <item>
+              <hi rend="italic">Free Lossless Audio Codec</hi> (FLAC)</item>
+          </list>
+          <p>Video (keine Priorisierung vorhanden)</p>
+          <list>
+            <item>
+              <hi rend="italic">Digital Moving Picture Exchange Bitmap</hi> (DPX)</item>
+            <item>
+              <hi rend="italic">Audio Video Interleaved Format</hi> (AVI)</item>
+            <item>
+              <hi rend="italic">QuickTime File Format </hi>(MOV)</item>
+            <item>
+              <hi rend="italic">Windows Media Video 9 File Format </hi>(WMV)</item>
+            <item>MPEG 4</item>
+            <item>
+              <hi rend="italic">Material Exchange Format</hi> (MXF)</item>
+          </list>
+          <div type="literature">
+            <listBibl>
+              <biblStruct corresp="http://zotero.org/groups/1332658/items/JQW6FPVS" type="webpage" xml:id="zoteroItem_JQW6FPVS">
+                <analytic>
+                  <title level="a">National Archives: Frequently asked questions about Digital Audio and Video</title>
+                </analytic>
+                <monogr>
+                  <title level="m">National Archives</title>
+                  <imprint>
+                    <date>2016</date>
+                    <note type="accessed">2020-03-27T10:41:00Z</note>
+                    <note type="url">https://www.archives.gov/records-mgmt/initiatives/dav-faq.html</note>
+                  </imprint>
+                </monogr>
+              </biblStruct>
+              <biblStruct corresp="http://zotero.org/groups/1332658/items/X3ZKMGB6" type="webpage" xml:id="zoteroItem_X3ZKMGB6">
+                <analytic>
+                  <title level="a">Sustainability of Digital Formats: Planning for Library of Congress Collections</title>
+                  <title type="short">Sustainability of Digital Formats</title>
+                </analytic>
+                <monogr>
+                  <title level="m">Library of Congress Digital Preservation</title>
+                  <imprint>
+                    <date></date>
+                    <note type="accessed">2020-03-27T10:41:38Z</note>
+                    <note type="url">https://www.loc.gov/preservation/digital/formats/</note>
+                  </imprint>
+                </monogr>
+              </biblStruct>
+              <biblStruct corresp="http://zotero.org/groups/1332658/items/595F6HPK" type="document" xml:id="Pau_Saavedra_i_Bendito._Centre_de_Recerca_i2014">
+                <monogr>
+                  <title level="m">ICA-PAAG. Short Guides</title>
+                  <author>
+                    <name>Pau Saavedra i Bendito. Centre de Recerca i</name>
+                  </author>
+                  <imprint>
+                    <publisher>ICA – Photographic and Audiovisual Archives Group (PAAG)</publisher>
+                    <date>2014</date>
+                    <note type="accessed">2020-03-27T10:43:43Z</note>
+                    <note type="url">https://www.ica.org/sites/default/files/PAAG_guides_Digital_Video_Archive%20EN.pdf</note>
+                  </imprint>
+                </monogr>
+              </biblStruct>
+              <biblStruct corresp="http://zotero.org/groups/1332658/items/4KW5XSZB" type="document" xml:id="Deutsche_Forschungsgemeinschaft2016">
+                <monogr>
+                  <title level="m">DFG-Praxisregeln &quot;Digitalisierung&quot;</title>
+                  <editor>
+                    <name>Deutsche Forschungsgemeinschaft</name>
+                  </editor>
+                  <imprint>
+                    <date>2016</date>
+                    <note type="accessed">2019-12-16</note>
+                    <note type="url">https://www.dfg.de/formulare/12_151/</note>
+                  </imprint>
+                </monogr>
+              </biblStruct>
+            </listBibl>
+          </div>
+          <div type="subsection" xml:id="software">
+            <list>
+              <item>
+                <ref target="http://gams.uni-graz.at/archive/objects/o:gams.doku/methods/sdef:TEI/get?locale=de" type="external">GAMS</ref>
+              </item>
+              <item>
+                <ref target="https://duraspace.org/fedora/" type="external">Fedora</ref>
+              </item>
+              <item>
+                <ref target="https://www.nch.com.au/scribe/index.html" type="external">Express Scribe</ref>
+              </item>
+              <item>
+                <ref target="http://www.fon.hum.uva.nl/praat/" type="external">Praat</ref>
+              </item>
+              <item>
+                <ref target="https://iiif.io/" type="external">iiif</ref>
+              </item>
+              <item>
+                <ref target="https://www.anvil-software.org" type="external">Anvil: Video Annotation Research Tool</ref>
+              </item>
+              <item>
+                <ref target="https://github.com/digirati-co-uk/timeliner" type="external">Variations Audio Timeliner</ref>
+              </item>
+            </list>
+          </div>
+          <div type="subsection" xml:id="links">
+            <list>
+              <item>
+                <ref target="/o:konde.6" type="internal">Digitale Nachhaltigkeit</ref>
+              </item>
+              <item>
+                <ref target="/o:konde.152" type="internal">Open Access</ref>
+              </item>
+              <item>
+                <ref target="/o:konde.95" type="internal">Hörspieledition</ref>
+              </item>
+              <item>
+                <ref target="/o:konde.139" type="internal">Musikedition</ref>
+              </item>
+              <item>
+                <ref target="/o:konde.85" type="internal">Filmedition</ref>
+              </item>
+            </list>
+          </div>
+          <div type="subsection" xml:id="topics">
+            <list>
+              <item>Archivierung</item>
+            </list>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

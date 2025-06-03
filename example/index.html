@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TEI Viewer</title>
+<link rel="stylesheet" href="css/tei.css">
+<script src="../js/CETEI.js"></script>
+<style>
+  body { font-family: Arial, sans-serif; }
+  .hidden { display: none; }
+  a { cursor: pointer; color: blue; text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<!-- Container for the index list -->
+<div id="index-list">
+  <h1>KONDE Dokumente</h1>
+  <ul>
+    <li><a onclick="loadTEI('../multimediaformate.xml')">Multimedia Formate</a></li>
+    <li><a onclick="loadTEI('../musikedition.xml')">Musikedition</a></li>
+    <!-- Add more links as needed -->
+  </ul>
+</div>
+
+<!-- Container for the transformed TEI -->
+<div id="tei-container" class="hidden">
+  <a onclick="showIndex()" style="display: block; margin-bottom: 1em;">&larr; Back to list</a>
+  <div id="tei-content"></div>
+</div>
+
+<script>
+  const indexList = document.getElementById('index-list');
+  const teiContainer = document.getElementById('tei-container');
+  const teiContent = document.getElementById('tei-content');
+
+  const cetei = new CETEI();
+
+  function loadTEI(file) {
+    // Hide the index and show the container for the TEI file
+    indexList.classList.add('hidden');
+    teiContainer.classList.remove('hidden');
+
+    // Clear previous content
+    teiContent.innerHTML = 'Loading...';
+
+    // Load and render the TEI file
+    cetei.getHTML5(file, function(data) {
+      teiContent.innerHTML = ''; // Clear 'Loading...'
+      teiContent.appendChild(data);
+    });
+  }
+
+  function showIndex() {
+    // Hide the TEI view and show the index
+    teiContainer.classList.add('hidden');
+    indexList.classList.remove('hidden');
+  }
+</script>
+
+</body>
+</html>

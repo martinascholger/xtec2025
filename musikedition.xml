@@ -1,0 +1,357 @@
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:t="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="de">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Digitale Musikedition</title>
+        <author>
+          <persName>
+            <forename>Selina</forename>
+            <surname>Galka</surname>
+          </persName>
+        </author>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName>
+            <forename>Helmut W.</forename>
+            <surname>Klug</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Datenmodellierung</resp>
+          <persName>
+            <forename>Selina</forename>
+            <surname>Galka</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Datenmodellierung</resp>
+          <persName>
+            <forename>Elisabeth</forename>
+            <surname>Steiner</surname>
+          </persName>
+        </respStmt>
+        <funder>Bundesministerium für Wissenschaft, Forschung und Wirtschaft
+                    </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName corresp="https://informationsmodellierung.uni-graz.at" ref="http://d-nb.info/gnd/1137284463">Zentrum für
+                        Informationsmodellierung - Austrian Centre for Digital Humanities,
+                        Karl-Franzens-Universität Graz</orgName>
+          <country>Austria</country>
+        </publisher>
+        <authority>
+          <orgName corresp="https://informationsmodellierung.uni-graz.at" ref="http://d-nb.info/gnd/1137284463">Zentrum für
+                        Informationsmodellierung - Austrian Centre for Digital Humanities,
+                        Karl-Franzens-Universität Graz</orgName>
+          <country>Austria</country>
+        </authority>
+        <distributor>
+          <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                        Asset Management System</orgName>
+        </distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
+                            BY 4.0</licence>
+        </availability>
+        <date when="2021">2021</date>
+        <pubPlace>Graz</pubPlace>
+        <idno type="PID">o:konde.139</idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title ref="http://gams.uni-graz.at/konde">KONDE Weißbuch</title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName>
+            <forename>Helmut W.</forename>
+            <surname>Klug</surname>
+          </persName>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Weißbuchartikel: Digitale Musikedition</title>
+          <author>Selina Galka</author>
+          <publisher>Herausgegeben von Helmut W. Klug unter Mitarbeit von Selina Galka und Elisabeth Steiner</publisher>
+          <date>2021</date>
+          <country>Austria</country>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <ab>
+          <ref target="info:fedora/context:konde" type="context">KONDE Weißbuch</ref>
+        </ab>
+        <p>Im KONDE-Projekt, das aus Hochschulraumstrukturmitteln finanziert wird,
+                        beschäftigten sich sieben universitäre Partner und drei weitere
+                        Einrichtungen aus unterschiedlichen Blickwinkeln mit theoretischen und
+                        praktischen Aspekten der Digitalen Edition. Ein Outcome des Projektes
+                        stellt das Weißbuch dar, welches über 200 Artikel zum Thema Digitale
+                        Edition umfasst. Die behandelten Themenkomplexe reichen dabei über
+                        Digitale Editionswissenschaft im Allgemeinen, Annotation und
+                        Modellierung, Interfaces, Archivierung und Metadaten bis hin zu
+                        rechtlichen Aspekten.</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">Deutsch</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="de">
+    <body>
+      <div>
+        <head>Digitale Musikedition</head>
+        <div>
+          <head>Galka, Selina; selina.galka@uni-graz.at</head>
+          <p>Unter dem Begriff ‘Digitale Musikedition’ können unterschiedliche Varianten von Editionen verstanden werden:</p>
+
+          <p>Johannes Kepper unterschied 2011 im Hinblick auf die bis dahin verfügbaren Editionen und Projekte zwischen “elektronischen Editionen”, die bereits bestehende Inhalte in das digitale Medium bringen und die technischen Möglichkeiten wie Suchfunktion, Verlinkung, Sortierung oder flexiblere Präsentationsmöglichkeiten nutzen (vgl. dazu auch <ref target="/o:konde.96" type="internal">Hybridedition</ref>), und “Digitalen Editionen”, die als <hi rend="italic">born-digital</hi> verstanden werden können und auf Musikcodierung, Notentext- und Quellenabbildungen zurückgreifen. Diese Art von Digitalen Editionen ließ sich bisher vor allem im Bereich der älteren Musik sehr gut umsetzen, da der Zeichenvorrat zu dieser Zeit noch begrenzt war. <bibl>(Kepper 2011, S. 167ff. und Glossar aus dem Projekt ‘Beethovens Werkstatt’: Digitale Musikedition)</bibl>
+          </p>
+          <p>Die heute verbreiteten Codierungsysteme für Musikeditionen sind Music<ref target="/o:konde.215" type="internal">XML</ref> und <ref target="/o:konde.226" type="internal">MEI</ref> (<hi rend="italic">Music Encoding Initiative</hi>). MEI wird in Anlehnung an die <ref target="/o:konde.178" type="internal">TEI</ref> seit 1999 von Perry Roland entwickelt und legt den Fokus auf westeuropäische Kunstmusik; MusicXML wurde von Michael Good entworfen (2004) und dient ebenfalls der Codierung moderner westlicher Notenschrift.</p>
+          <p>Die Digitale Musikedition orientiert sich zwar an den digitalen Editionstechniken der Textwissenschaften, allerdings unterscheidet sich die Edition von Notentext doch in einem wesentlichen Aspekt: Das musikalische Zeichensystem ist teilweise durch starke Doppel- und Mehrdeutigkeiten geprägt und schon allein der Notentext nur eine schriftliche Repräsentation des Klangereignisses und defizitär. <bibl>(Veit 2005, S. 11–14)</bibl>
+          </p>
+          <p>Musikeditionen können grundsätzlich zwei Schwerpunkte haben: einerseits die wissenschaftliche Ausgabe, also beispielsweise Darstellung der Varianten, andererseits spielt aber auch der Praxisbezug eine große Rolle, z. B. die Möglichkeit der Ausgabe von nur einzelnen, ausgewählten Stimmen, MIDI-Wiedergabe, Transposition, Metronom oder Notengenerierung (z. B. als PDF). Digitale Musikeditionen, die diese Möglichkeiten ausschöpfen und auf codierten Quellen basieren, sind bisher nur zum Teil vorhanden.</p>
+          <div type="literature">
+            <listBibl>
+              <biblStruct corresp="http://zotero.org/groups/1332658/items/A324A9JA" type="book" xml:id="Kepper2011">
+                <monogr>
+                  <title level="m">Musikedition im Zeichen neuer Medien. Historische Entwicklung und gegenwärtige Perspektiven musikalischer Gesamtausgaben</title>
+                  <title type="short">Musikedition im Zeichen neuer Medien</title>
+                  <idno type="ISBN">987-3-8448-0076-0</idno>
+                  <author>
+                    <forename>Johannes</forename>
+                    <surname>Kepper</surname>
+                  </author>
+                  <imprint>
+                    <pubPlace>Norderstedt</pubPlace>
+                    <publisher>Books on Demand</publisher>
+                    <date>2011</date>
+                    <note type="accessed">2020-01-23</note>
+                    <note type="url">https://kups.ub.uni-koeln.de/6639/</note>
+                  </imprint>
+                </monogr>
+                <series>
+                  <title level="s">Schriften des Instituts für Dokumentologie und Editorik</title>
+                  <biblScope unit="volume">5</biblScope>
+                </series>
+              </biblStruct>
+              <biblStruct corresp="http://zotero.org/groups/1332658/items/D6DNAJ92" type="conferencePaper" xml:id="Acquavella-Rauch2018">
+                <analytic>
+                  <title level="a">(Musik)Edition im ›digitalen Zeitalter‹ – Versuch einer Verortung konzeptioneller und struktureller Veränderungen</title>
+                  <author>
+                    <forename>Stefanie</forename>
+                    <surname>Acquavella-Rauch</surname>
+                  </author>
+                </analytic>
+                <monogr>
+                  <title level="m">Beitragsarchiv des Internationalen Kongresses der Gesellschaft für Musikforschung. »Wege der Musikwissenschaft« - 2016</title>
+                  <title type="conferenceName">Stand und Perspektiven musikwissenschaftlicher Digital-Humanities-Projekte</title>
+                  <editor>
+                    <forename>Gabriele</forename>
+                    <surname>Buschmeier</surname>
+                  </editor>
+                  <editor>
+                    <forename>Klaus</forename>
+                    <surname>Pietschmann</surname>
+                  </editor>
+                  <imprint>
+                    <pubPlace>Mainz</pubPlace>
+                    <publisher>Schott</publisher>
+                    <date>2018</date>
+                    <note type="url">https://schott-campus.com/wp-content/uploads/2019/02/II5_Rauch.pdf</note>
+                  </imprint>
+                </monogr>
+              </biblStruct>
+              <biblStruct corresp="http://zotero.org/groups/1332658/items/7ZEA6HJR" type="book" xml:id="Emans2015">
+                <monogr>
+                  <title level="m">Musikeditionen im Wandel der Geschichte</title>
+                  <editor>
+                    <forename>Reinmar</forename>
+                    <surname>Emans</surname>
+                  </editor>
+                  <editor>
+                    <forename>Ulrich</forename>
+                    <surname>Krämer</surname>
+                  </editor>
+                  <imprint>
+                    <pubPlace>Berlin, Boston</pubPlace>
+                    <publisher>de Gruyter</publisher>
+                    <date>2015</date>
+                  </imprint>
+                </monogr>
+                <series>
+                  <title level="s">Bausteine zur Geschichte der Edition</title>
+                  <biblScope unit="volume">5</biblScope>
+                </series>
+              </biblStruct>
+              <biblStruct corresp="http://zotero.org/groups/1332658/items/3AH4Z8MN" type="journalArticle" xml:id="Veit2005">
+                <analytic>
+                  <title level="a">Musikwissenschaft und Computerphilologie – eine schwierige Liaison?</title>
+                  <author>
+                    <forename>Joachim</forename>
+                    <surname>Veit</surname>
+                  </author>
+                </analytic>
+                <monogr>
+                  <title level="j">Jahrbuch für Computerphilologie</title>
+                  <imprint>
+                    <biblScope unit="volume">7</biblScope>
+                    <biblScope unit="page">67–92</biblScope>
+                    <date>2005</date>
+                  </imprint>
+                </monogr>
+              </biblStruct>
+              <biblStruct corresp="http://zotero.org/groups/1332658/items/ABJ3Q8PD" type="journalArticle" xml:id="Veit2008">
+                <analytic>
+                  <title level="a">Digitale Edition zwischen Experiment und Standardisierung. Internationale Tagung im Heinz-Nixdorf-Museums-Forum Paderborn, 6.-8. Dezember 2007</title>
+                  <author>
+                    <forename>Joachim</forename>
+                    <surname>Veit</surname>
+                  </author>
+                </analytic>
+                <monogr>
+                  <title level="j">editio</title>
+                  <imprint>
+                    <biblScope unit="volume">22</biblScope>
+                    <biblScope unit="page">232–240</biblScope>
+                    <date>2008</date>
+                  </imprint>
+                </monogr>
+              </biblStruct>          
+    <biblStruct corresp="http://zotero.org/groups/1332658/items/BBFGASCE" type="journalArticle" xml:id="Veit2013">
+                <analytic>
+                  <title level="a">Digitale Edition und Noten-Text. Vermittlungs- und Erkenntnisfortschritt?</title>
+                  <author>
+                    <forename>Joachim</forename>
+                    <surname>Veit</surname>
+                  </author>
+                </analytic>
+                <monogr>
+                  <title level="j">Im Dickicht der Texte. Editionswissenschaft als interdisziplinäre Grundlagenforschung, hg. v. Gesa Dane, Jörg Jungmayr u. Marcus Schotte</title>
+                  <imprint>
+                    <biblScope unit="page">233–266?</biblScope>
+                    <date>2013</date>
+                  </imprint>
+                </monogr>
+              </biblStruct>
+              <biblStruct corresp="http://zotero.org/groups/1332658/items/7XAFVGRZ" type="journalArticle" xml:id="Veit2015">
+                <analytic>
+                  <title level="a">Musikedition 2.0: Das &apos;Aus&apos; für den Edierten Notentext?</title>
+                  <author>
+                    <forename>Joachim</forename>
+                    <surname>Veit</surname>
+                  </author>
+                </analytic>
+                <monogr>
+                  <title level="j">editio</title>
+                  <imprint>
+                    <biblScope unit="volume">29</biblScope>
+                    <biblScope unit="page">70–84</biblScope>
+                    <date>2015</date>
+                  </imprint>
+                </monogr>
+              </biblStruct>
+              <biblStruct corresp="http://zotero.org/groups/1332658/items/VRQZB75Z" type="webpage" xml:id="zoteroItem_VRQZB75Z">
+                <analytic>
+                  <title level="a">Music Encoding Initiative</title>
+                </analytic>
+                <monogr>
+                  <imprint>
+                    <date></date>
+                    <note type="url">https://music-encoding.org</note>
+                  </imprint>
+                </monogr>
+              </biblStruct>
+              <biblStruct corresp="http://zotero.org/groups/1332658/items/MUVE32QJ" type="webpage" xml:id="zoteroItem_MUVE32QJ">
+                <analytic>
+                  <title level="a">Glossar aus dem Projekt &quot;Beethovens Werkstatt&quot;: Digitale Musikedition</title>
+                </analytic>
+                <monogr>
+                  <title level="m">Beethovens Werkstatt. Genetische Textkritik und Digitale Musikedition</title>
+                  <imprint>
+                    <date></date>
+                    <note type="accessed">2020-04-22</note>
+                    <note type="url">https://beethovens-werkstatt.de/glossary/digitale-musikedition/</note>
+                  </imprint>
+                </monogr>
+              </biblStruct>
+            </listBibl>
+          </div>
+          <div type="subsection" xml:id="software">
+            <list>
+              <item>
+                <ref target="https://www.edirom.de/edirom-projekt/index.html" type="external">Edirom</ref>
+              </item>
+              <item>
+                <ref target="https://www.humdrum.org" type="external">Humdrum</ref>
+              </item>
+              <item>
+                <ref target="https://www.sibelius.at" type="external">Sibelius</ref>
+              </item>
+              <item>
+                <ref target="https://musescore.com" type="external">MuseScore</ref>
+              </item>
+              <item>
+                <ref target="https://www.finalemusic.com" type="external">Finale</ref>
+              </item>
+            </list>
+          </div>
+          <div type="subsection" xml:id="links">
+            <list>
+              <item>
+                <ref target="/o:konde.121" type="internal">LZA-Datenformate: Audio- bzw. Musik- und Videoformate</ref>
+              </item>
+              <item>
+                <ref target="/o:konde.215" type="internal">XML</ref>
+              </item>
+              <item>
+                <ref target="/o:konde.59" type="internal">Digitale Edition</ref>
+              </item>
+              <item>
+                <ref target="/o:konde.226" type="internal">MEI</ref>
+              </item>
+            </list>
+          </div>
+          <div type="subsection" xml:id="projects">
+            <list>
+              <item>
+                <ref target="http://www.digital-musicology.at/de-at/" type="external">Digitale Musikwissenschaft Österreich</ref>
+              </item>
+              <item>
+                <ref target="https://www.edirom.de/edirom-projekt/digitale-musikedition/" type="external">Edirom - Digitale Musikedition</ref>
+              </item>
+              <item>
+                <ref target="https://www.cmme.org" type="external">The CMEE Project</ref>
+              </item>
+              <item>
+                <ref target="https://www.dimused.uni-tuebingen.de" type="external">DiMusEd</ref>
+              </item>
+              <item>
+                <ref target="https://beethovens-werkstatt.de" type="external">Beethovens Werkstatt</ref>
+              </item>
+              <item>
+                <ref target="https://freischuetz-digital.de" type="external">Freischütz digital</ref>
+              </item>
+              <item>
+                <ref target="https://bargheer.edirom.de" type="external">Carl Louis Bargheer: Fiedellieder plus. Digitale Edition</ref>
+              </item>
+              <item>
+                <ref target="https://sarti-edition.de" type="external">Sarti-Edition</ref>
+              </item>
+            </list>
+          </div>
+          <div type="subsection" xml:id="topics">
+            <list>
+              <item>Einführung</item>
+              <item>Digitale Editionswissenschaft</item>
+            </list>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
